@@ -26,17 +26,20 @@ To test your file go to the terminal in Codespaces and run the file directly.
 - Install the dependencies by running `npm install`.
 - Now test your code by running `npm test` in the terminal.
 
-You should see output similar to the following if your code is correct:
+The example output below shows what running the tests might look like. Your
+programs output will **not** match exactly, but you should see that all tests
+pass.
+
 
 ```bash
 $ npm test
 
-> cs208-06.03-mini-lab-1@1.0.0 test
+> cs208-example-output@1.0.0 test
 > qunit ./test.js
 
 TAP version 13
-ok 1 test drawTriangle with size 4
-ok 2 test drawTriangle with size 7
+ok 1 test testFunction with argument 4
+ok 2 test testFunction with argument 7
 1..2
 # pass 2
 # skip 0
