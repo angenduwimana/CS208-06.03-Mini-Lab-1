@@ -47,7 +47,7 @@ ok 2 test testFunction with argument 7
 # fail 0
 ```
 
-## Submitting Your Code
+## Submitting to Canvas
 
 Run the command `npm run canvas` in the terminal to generate a `canvas.txt` file
 that contains the output of your tests. Upload this file to Canvas for grading.
@@ -59,6 +59,11 @@ $ npm run canvas
 Canvas output written to canvas.txt
 You can upload this file to Canvas for grading.
 ```
+
+## Committing Your Code
+
+You do **not** need to commit or push any changes to GitHub for this lab. You
+only need to submit index.js and the generated canvas.txt file to Canvas.
 
 ## Getting Help
 
