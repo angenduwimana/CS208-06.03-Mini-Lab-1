@@ -8,7 +8,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "qunit ./test.js"
+    "test": "qunit ./test.js",
+    "canvas": "bash canvas.sh"
   },
   "devDependencies": {
     "qunit": "^2.24.3"

@@ -46,3 +46,21 @@ ok 2 test testFunction with argument 7
 # todo 0
 # fail 0
 ```
+
+## Submitting Your Code
+
+Run the command `npm run canvas` in the terminal to generate a `canvas.txt` file
+that contains the output of your tests. Upload this file to Canvas for grading.
+
+```bash
+$ npm run canvas
+> cs208-example-output@1.0.0 canvas
+> bash canvas.sh
+Canvas output written to canvas.txt
+You can upload this file to Canvas for grading.
+```
+
+## Getting Help
+
+If you have questions about the lab, please post them to the Canvas course
+discussion board or reach out to your TA for assistance.
