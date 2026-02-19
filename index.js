@@ -1,5 +1,8 @@
-function drawTriangle(triangleSize) {
 
+function drawTriangle(triangleSize) {
+  for (let i = 1; i <= triangleSize; i++) {
+    console.log("*".repeat(i));
+  }
 }
 
-export default drawTriangle;
+ module.exports = drawTriangle;
